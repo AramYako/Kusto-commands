@@ -1,0 +1,3 @@
+traces 
+| where cloud_RoleName == "xx"
+| where severityLevel >= 3
